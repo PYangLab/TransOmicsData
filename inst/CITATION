@@ -1,0 +1,15 @@
+citHeader("To cite TransOmicsData in publications use:")
+
+citEntry(entry = "manual",
+         title = "TransOmicsData: a collection of trans-omics data covering a wide range of biological systems.",
+         author = c("Carissa Chen", "Di Xiao"),
+         organization = "University of Sydney",
+         address = "Sydney, Australia",
+         note = "version 1.0.0",
+         year = "2023",
+         url = "https://github.com/ycao6928/scSimBenchmarkData", # to update
+         textVersion  = paste("Chen, Carissa., Xiao, Di. (2023).",
+                              "TransOmicsData: a collection of trans-omics data covering a wide range of biological systems.",
+                              "version 1.0.0. University of Sydney. Sydney, Australia.",
+                              "https://github.com/ycao6928/scSimBenchmarkData") # to update
+)
