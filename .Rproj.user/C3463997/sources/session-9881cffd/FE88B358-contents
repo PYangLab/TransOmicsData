@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto
+.Rhistory
+.Rproj.user
+inst/doc
+data/
+inst/make-data.R
+inst/make-manifest.R
+inst/make-metadata.R
