@@ -4,7 +4,7 @@ meta <- data.frame(
   BiocVersion="3.16",
   Genome="hg38",
   SourceType = "RData",
-  SourceUrl = c("xxxx", "xxxx","xxxx"), # GEO accession link or PRIDE link
+  SourceUrl = c("https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD047423", "https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD047423", "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248901"),
   SourceVersion = '0.0',
   Species = "Homo sapiens",
   TaxonomyId=9606,
