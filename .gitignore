@@ -6,7 +6,6 @@
 .quarto
 .Rbuildignore
 inst/doc
-data
 inst/make-data.R
 inst/make-metadata.R
 inst/make-manifest.R
