@@ -26,17 +26,9 @@ The data stored in this package can be retrieved using ExperimentHub.
 
 ```{r warning=FALSE, message=FALSE}
 library(ExperimentHub)
-eh <- ExperimentHub()
 refreshHub(hubClass = "ExperimentHub")
-myfiles <- query(eh, "TransOmicsData")
+myfiles <- query(ehub, "TransOmicsData")
 myfiles
-```
-
-Additional details on each dataset can be explored using the following command and the exact processing step of each dataset can be found under the `inst/scripts` directory. 
-
-```{r}
-library(TransOmicsData)
-listDatasets()
 ```
 
 ## Citing `TransOmicsData`
