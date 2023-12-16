@@ -9,3 +9,4 @@ inst/doc
 inst/make-data.R
 inst/make-metadata.R
 inst/make-manifest.R
+data
