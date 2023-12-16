@@ -9,7 +9,6 @@ output:
     toc: true
     toc_depth: 2
 date: "`r doc_date()`"
-package: "`r pkg_ver('TransOmicsData')`"
 vignette: >
   %\VignetteIndexEntry{TransOmicsData: A collection of trans-omics datasets across various biological systems}
   %\VignetteEngine{knitr::rmarkdown}
@@ -26,17 +25,9 @@ The data stored in this package can be retrieved using ExperimentHub.
 
 ```{r warning=FALSE, message=FALSE}
 library(ExperimentHub)
-eh <- ExperimentHub()
 refreshHub(hubClass = "ExperimentHub")
-myfiles <- query(eh, "TransOmicsData")
+myfiles <- query(ehub, "TransOmicsData")
 myfiles
-```
-
-Additional details on each dataset can be explored using the following command and the exact processing step of each dataset can be found under the `inst/scripts` directory. 
-
-```{r}
-library(TransOmicsData)
-listDatasets()
 ```
 
 ## Citing `TransOmicsData`
