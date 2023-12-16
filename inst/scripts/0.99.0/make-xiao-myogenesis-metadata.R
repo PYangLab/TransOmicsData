@@ -4,7 +4,7 @@ meta <- data.frame(
                                           "inhibition phosphoproteome",
                                           "inhibition proteome")),
   Description = "timecourse of C2C12 differentiation up to 5 days",
-  BiocVersion="3.16",
+  BiocVersion="3.19",
   Genome="mm10",
   SourceType = "RData",
   SourceUrl = "https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD028713",

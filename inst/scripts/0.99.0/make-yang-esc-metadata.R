@@ -1,7 +1,7 @@
 meta <- data.frame(
   Title =  sprintf("Yang ESC %s", c("epigenome", "phosphoproteome", "proteome", "transcriptome")),
   Description = "timecourse of ESC differentiation to EpiLCs",
-  BiocVersion="3.16",
+  BiocVersion="3.19",
   Genome="mm10",
   SourceType = "RData",
   SourceUrl = c("https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117896",
