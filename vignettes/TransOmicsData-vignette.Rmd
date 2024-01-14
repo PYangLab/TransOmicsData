@@ -26,8 +26,14 @@ The data stored in this package can be retrieved using ExperimentHub.
 ```{r warning=FALSE, message=FALSE}
 library(ExperimentHub)
 refreshHub(hubClass = "ExperimentHub")
+ehub <- ExperimentHub()
 myfiles <- query(ehub, "TransOmicsData")
 myfiles
+```
+
+# View metadata associated with each dataset
+```{r warning=FALSE, message=FALSE}
+listDatasets()
 ```
 
 ## Citing `TransOmicsData`

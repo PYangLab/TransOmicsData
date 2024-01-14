@@ -10,7 +10,7 @@ meta <- data.frame(
   TaxonomyId=9606,
   Coordinate_1_based="NA",
   DataProvider=c("PRIDE", "PRIDE", "NCBI"),
-  Maintainer="Di Xiao <di.xiao@sydney.edu.au>",
+  Maintainer="Di Xiao <d.xiao@sydney.edu.au>",
   RDataClass= "SummarizedExperiment",
   DispatchClass="Rds",
   RDataPath = file.path("TransOmicsData", "0.99.0", "chen-organoid", c("phosphoproteome.rds", "proteome.rds", "transcriptome.rds")),

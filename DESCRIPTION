@@ -3,28 +3,25 @@ Title: A collection of trans-omics datasets across various biological systems
 Version: 0.99.0
 Date: 2023-11-25
 Authors@R: c(
-    person(given = "Carissa", family = "Chen", role="aut"),
-    person(given = "Di", family = "Xiao", email = "di.xiao@sydney.edu.au", role=c("aut", "cre"))
+    person(given = "Carissa", family = "Chen", email = "carissa.chen@sydney.edu.au", role="aut"),
+    person(given = "Di", family = "Xiao", email = "d.xiao@sydney.edu.au", role=c("aut", "cre"))
     )
-Description: Contains a collection of trans-omics datasets generated from various sequencing technologies, tissue types and species
+Description: Contains a collection of trans-omics datasets generated using various sequencing technologies such as RNA-seq, Mass spectrometry and ChIP-seq, from different tissue types and species.
 Depends: ExperimentHub
-Imports: ExperimentHub, S4Vectors, utils
-License: CC0
+Imports: S4Vectors, utils
+License: GPL-3
 BugReports: https://support.bioconductor.org/t/TransOmicsData
 VignetteBuilder: knitr
 Suggests: 
     BiocStyle,
     knitr,
     rmarkdown,
-    ExperimentHubData,
     RefManageR,
     sessioninfo,
     testthat
-biocViews: ExperimentHub, MassSpectrometryData, RNASeqData
+biocViews: ExperimentHub, MassSpectrometryData, RNASeqData, Tissue, SequencingData
 Encoding: UTF-8
 LazyData: false
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.0
 Config/testthat/edition: 3
-Author: Carissa Chen [aut], Di Xiao [aut, cre]
-Maintainer: Di Xiao <di.xiao@sydney.edu.au>

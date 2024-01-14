@@ -13,7 +13,7 @@ meta <- data.frame(
   TaxonomyId=10090,
   Coordinate_1_based="NA",
   DataProvider=c("NCBI", "PRIDE", "PRIDE", "NCBI"),
-  Maintainer="Di Xiao <di.xiao@sydney.edu.au>",
+  Maintainer="Di Xiao <d.xiao@sydney.edu.au>",
   RDataClass= "SummarizedExperiment",
   DispatchClass="Rds",
   RDataPath = file.path("TransOmicsData", "0.99.0", "yang-esc", c("epigenome.rds", "phosphoproteome.rds",
