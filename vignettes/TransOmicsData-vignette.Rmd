@@ -33,6 +33,7 @@ myfiles
 
 # View metadata associated with each dataset
 ```{r warning=FALSE, message=FALSE}
+library(TransOmicsData)
 listDatasets()
 ```
 
