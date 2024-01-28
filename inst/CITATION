@@ -2,14 +2,32 @@ citHeader("To cite TransOmicsData in publications use:")
 
 citEntry(entry = "manual",
          title = "TransOmicsData: a collection of trans-omics data covering a wide range of biological systems.",
-         author = c("Carissa Chen", "Di Xiao"),
+         author = c("Carissa Chen", "Di Xiao", "Pengyi Yang"),
          organization = "University of Sydney",
          address = "Sydney, Australia",
-         note = "version 1.0.0",
-         year = "2023",
-         url = "https://github.com/ycao6928/scSimBenchmarkData", # to update
-         textVersion  = paste("Chen, Carissa., Xiao, Di. (2023).",
+         note = "R package version 1.0.0",
+         year = "2024",
+         url = "https://github.com/PYangLab/TransOmicsData",
+         textVersion  = paste("Chen, Carissa., Xiao, Di., Yang, P. (2024).",
                               "TransOmicsData: a collection of trans-omics data covering a wide range of biological systems.",
                               "version 1.0.0. University of Sydney. Sydney, Australia.",
-                              "https://github.com/ycao6928/scSimBenchmarkData") # to update
+                              "https://github.com/PYangLab/TransOmicsData")
 )
+
+citHeader("A BibTeX entry for LaTeX users is:")
+
+bib <- bibentry(bibtype="Manual",
+                title="TransOmicsData: a collection of trans-omics data covering a wide range of biological systems.",
+                author=c(
+                    person(given = "Carissa", family = "Chen", email = "carissa.chen@sydney.edu.au", role="aut"),
+                    person(given = "Di", family = "Xiao", email = "d.xiao@sydney.edu.au", role=c("aut", "cre")),
+                    person(given = "Pengyi", family = "Yang", email = "pengyi.yang@sydney.edu.au", role="aut")
+                    ),
+                 year = "2024",
+                 note = "R package version 1.0.0",
+)
+
+print(bib, style="Bibtex")
+
+
+
