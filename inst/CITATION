@@ -10,6 +10,6 @@ citEntry(entry = "manual",
          url = "https://github.com/PYangLab/TransOmicsData",
          textVersion  = paste("Chen, Carissa., Xiao, Di., Yang, P. (2024).",
                               "TransOmicsData: a collection of trans-omics data covering a wide range of biological systems.",
-                              "version 1.0.0. University of Sydney. Sydney, Australia.",
+                              "R package version 1.0.0. University of Sydney. Sydney, Australia.",
                               "https://github.com/PYangLab/TransOmicsData")
 )

@@ -1,6 +1,6 @@
 Package: TransOmicsData
 Title: A collection of trans-omics datasets across various biological systems
-Version: 0.99.2
+Version: 0.99.3
 Date: 2024-01-29
 Authors@R: c(
     person(given = "Carissa", family = "Chen", email = "carissa.chen@sydney.edu.au", role="aut"),
