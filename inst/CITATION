@@ -13,21 +13,3 @@ citEntry(entry = "manual",
                               "version 1.0.0. University of Sydney. Sydney, Australia.",
                               "https://github.com/PYangLab/TransOmicsData")
 )
-
-citHeader("A BibTeX entry for LaTeX users is:")
-
-bib <- bibentry(bibtype="Manual",
-                title="TransOmicsData: a collection of trans-omics data covering a wide range of biological systems.",
-                author=c(
-                    person(given = "Carissa", family = "Chen", email = "carissa.chen@sydney.edu.au", role="aut"),
-                    person(given = "Di", family = "Xiao", email = "d.xiao@sydney.edu.au", role=c("aut", "cre")),
-                    person(given = "Pengyi", family = "Yang", email = "pengyi.yang@sydney.edu.au", role="aut")
-                    ),
-                 year = "2024",
-                 note = "R package version 1.0.0",
-)
-
-print(bib, style="Bibtex")
-
-
-
