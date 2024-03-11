@@ -1,4 +1,4 @@
-# TransOmicsData 0.99.0
+# TransOmicsData 0.99.5
 
 NEW FEATURES
 
@@ -6,9 +6,6 @@ NEW FEATURES
 
 SIGNIFICANT USER-VISIBLE CHANGES
 
-* Your main changes to a function `foo()` or parameter `param`.
+* Made changes to vignette to improve usability.
 
 BUG FIXES
-
-* Your bug fixes. See more details at
-<http://bioconductor.org/developers/package-guidelines/#news>.

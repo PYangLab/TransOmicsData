@@ -1,17 +1,19 @@
 Package: TransOmicsData
 Title: A collection of trans-omics datasets across various biological systems
-Version: 0.99.4
+Version: 0.99.5
 Date: 2024-01-29
 Authors@R: c(
-    person(given = "Carissa", family = "Chen", email = "carissa.chen@sydney.edu.au", role="aut"),
-    person(given = "Di", family = "Xiao", email = "d.xiao@sydney.edu.au", role=c("aut", "cre")),
-    person(given = "Pengyi", family = "Yang", email = "pengyi.yang@sydney.edu.au", role="aut")
-    )
-Description: Contains a collection of trans-omics datasets generated using various sequencing technologies such as RNA-seq, Mass spectrometry and ChIP-seq, from different tissue types and species.
-Depends: ExperimentHub
+    person(given = "Carissa", family = "Chen", email = "carissa.chen@sydney.edu.au", role="aut", comment=c(ORCID="0000-0003-2419-7840")),
+    person(given = "Di", family = "Xiao", email = "d.xiao@sydney.edu.au", role=c("aut", "cre"), comment=c(ORCID="0000-0002-9225-7086")),
+    person(given = "Pengyi", family = "Yang", email = "pengyi.yang@sydney.edu.au", role="aut", comment=c(ORCID="0000-0003-1098-3138")
+    ))
+Description: Contains a collection of trans-omics datasets generated using various sequencing technologies such as RNA-seq, Mass spectrometry and ChIP-seq.
+    Modalities include the bulk profiling of the phosphoproteome, proteome, transcriptome and epigenome.
+    Data reflects the timecourses of different developmental systems from the mouse or human.
 Imports: S4Vectors, utils
-License: GPL-3
+License: GPL-3 + file LICENSE
 BugReports: https://support.bioconductor.org/t/TransOmicsData
+URL: 
 VignetteBuilder: knitr
 Suggests: 
     BiocStyle,
@@ -24,5 +26,5 @@ biocViews: ExperimentHub, MassSpectrometryData, RNASeqData, ChIPSeqData, Tissue,
 Encoding: UTF-8
 LazyData: false
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.0
+RoxygenNote: 7.3.1
 Config/testthat/edition: 3

@@ -25,6 +25,6 @@
 #' @importFrom S4Vectors DataFrame
 #' @importFrom utils read.table
 listDatasets <- function() {
-  path <- system.file("extdata", "manifest.txt", package = "TransOmicsData")
-  DataFrame(read.table(path, stringsAsFactors = FALSE, head = TRUE, sep = "\t"))
+    path <- system.file("extdata", "manifest.txt", package = "TransOmicsData")
+    DataFrame(read.table(path, stringsAsFactors = FALSE, header = TRUE, sep = "\t"))
 }

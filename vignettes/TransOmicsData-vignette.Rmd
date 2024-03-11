@@ -21,7 +21,16 @@ The TransOmicsData package contains datasets spanning various biological context
 
 # The TransOmicsData package
 
+## Accessing the data
+
 The data stored in this package can be retrieved using ExperimentHub.
+
+```{r warning=FALSE, message=FALSE}
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("ExperimentHub")
+```
 
 ```{r warning=FALSE, message=FALSE}
 library(ExperimentHub)
@@ -31,7 +40,17 @@ myfiles <- query(ehub, "TransOmicsData")
 myfiles
 ```
 
-# View metadata associated with each dataset
+## Installation of the TransOmicsData package
+
+```{r warning=FALSE, message=FALSE}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("TransOmicsData")
+```
+
+To list the summarized metadata for all datasets in the package:
+
 ```{r warning=FALSE, message=FALSE}
 library(TransOmicsData)
 listDatasets()
@@ -39,7 +58,7 @@ listDatasets()
 
 ## Citing `TransOmicsData`
 
-We hope that `r Biocpkg("TransOmicsData")` will be useful for your research. Please use the following information to cite the package and the overall approach. Thank you!
+We hope that `r Biocpkg("TransOmicsData")` will be useful for your research. Please use the following information to cite the package. Thank you!
 
 ```{r "citation"}
 ## Citation info
