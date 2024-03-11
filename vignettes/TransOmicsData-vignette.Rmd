@@ -26,10 +26,10 @@ The TransOmicsData package contains datasets spanning various biological context
 The data stored in this package can be retrieved using ExperimentHub.
 
 ```{r warning=FALSE, message=FALSE}
-if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
+# if (!requireNamespace("BiocManager", quietly = TRUE))
+#    install.packages("BiocManager")
 
-BiocManager::install("ExperimentHub")
+# BiocManager::install("ExperimentHub")
 ```
 
 ```{r warning=FALSE, message=FALSE}
@@ -40,13 +40,10 @@ myfiles <- query(ehub, "TransOmicsData")
 myfiles
 ```
 
-## Installation of the TransOmicsData package
+## Package installation
 
 ```{r warning=FALSE, message=FALSE}
-if (!require("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-
-BiocManager::install("TransOmicsData")
+# BiocManager::install("TransOmicsData")
 ```
 
 To list the summarized metadata for all datasets in the package:
