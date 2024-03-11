@@ -4,7 +4,7 @@ Version: 0.99.6
 Date: 2024-01-29
 Authors@R: c(
     person(given = "Carissa", family = "Chen", email = "carissa.chen@sydney.edu.au", role="aut", comment=c(ORCID="0000-0003-2419-7840")),
-    person(given = "Di", family = "Xiao", email = "d.xiao@sydney.edu.au", role=c("aut", "cre"), comment=c(ORCID="0000-0002-9225-7086")),
+    person(given = "Di", family = "Xiao", email = "di.xiao@sydney.edu.au", role=c("aut", "cre"), comment=c(ORCID="0000-0002-9225-7086")),
     person(given = "Pengyi", family = "Yang", email = "pengyi.yang@sydney.edu.au", role="aut", comment=c(ORCID="0000-0003-1098-3138")
     ))
 Description: Contains a collection of trans-omics datasets generated using various sequencing technologies such as RNA-seq, Mass spectrometry and ChIP-seq.
