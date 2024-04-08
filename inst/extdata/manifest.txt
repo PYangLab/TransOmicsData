@@ -1,4 +1,4 @@
 "Title"	"Description"	"Omics"	"Species"	"RDataPath"
-"1"	"chen-organoid"	"neural organoid differentiation"	"phosphoproteome, proteome, transcriptome"	"human"	"TransOmicsData/0.99.0/chen-organoid"
+"1"	"chen-organoid"	"neural organoid differentiation"	"phosphoproteome, proteome, transcriptome, single-cell transcriptome"	"human"	"TransOmicsData/0.99.0/chen-organoid"
 "2"	"xiao-myogenesis"	"C2C12 myogenesis differentiation"	"phosphoproteome, proteome"	"mouse"	"TransOmicsData/0.99.0/xiao-myogenesis"
 "3"	"yang-esc"	"ESC to epiLC differentiation"	"epigenome, phosphoproteome, proteome, transcriptome"	"human"	"TransOmicsData/0.99.0/yang-esc"
