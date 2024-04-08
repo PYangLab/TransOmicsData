@@ -5,11 +5,7 @@ citEntry(entry = "manual",
          author = c("Carissa Chen", "Di Xiao", "Pengyi Yang"),
          organization = "University of Sydney",
          address = "Sydney, Australia",
-         note = "R package version 1.0.0",
          year = "2024",
          url = "https://github.com/PYangLab/TransOmicsData",
-         textVersion  = paste("Chen, Carissa., Xiao, Di., Yang, P. (2024).",
-                              "TransOmicsData: a collection of trans-omics data covering a wide range of biological systems.",
-                              "R package version 1.0.0. University of Sydney. Sydney, Australia.",
-                              "https://github.com/PYangLab/TransOmicsData")
+         doi = "10.18129/B9.bioc.TransOmicsData"
 )
