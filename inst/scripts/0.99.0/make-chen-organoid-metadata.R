@@ -1,6 +1,9 @@
 meta <- data.frame(
   Title =  sprintf("Chen organoid %s", c("phosphoproteome", "proteome", "transcriptome", "sctranscriptome")),
-  Description = "developmental timecourse of the early neural organoid up to 8 days",
+  Description = c("developmental timecourse of the early neural organoid up to 8 days",
+  "developmental timecourse of the early neural organoid up to 8 days",
+  "developmental timecourse of the early neural organoid up to 8 days",
+  "profiling of early neural organoid at 8 days"),
   BiocVersion="3.19",
   Genome="hg38",
   SourceType = c("RData", "RData", "RData", "RDS"),
