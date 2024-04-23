@@ -21,3 +21,6 @@ From within R, enter:
 ```r
 citation("TransOmicsData")
 ```
+## Shiny App
+
+Explore the data interactively on [Shiny](http://shiny.maths.usyd.edu.au/hCOmultiome/)
