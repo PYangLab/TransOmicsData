@@ -1,4 +1,4 @@
-"Title"	"Description"	"Omics"	"Species"	"RDataPath"
-"1"	"chen-organoid"	"neural organoid differentiation"	"phosphoproteome, proteome, transcriptome, single-cell transcriptome"	"human"	"TransOmicsData/0.99.0/chen-organoid"
-"2"	"xiao-myogenesis"	"C2C12 myogenesis differentiation"	"phosphoproteome, proteome"	"mouse"	"TransOmicsData/0.99.0/xiao-myogenesis"
-"3"	"yang-esc"	"ESC to epiLC differentiation"	"epigenome, phosphoproteome, proteome, transcriptome"	"human"	"TransOmicsData/0.99.0/yang-esc"
+"Title"	"Description"	"Omics"	"Species"	"RDataPath"	"Reference"
+"1"	"chen-organoid"	"neural organoid differentiation"	"phosphoproteome, proteome, transcriptome, single-cell transcriptome"	"human"	"TransOmicsData/0.99.0/chen-organoid"	"Chen et al. Trans-omic Profiling Uncovers Molecular Controls of the Early Human Cerebral Organoid Formation. 2024"
+"2"	"xiao-myogenesis"	"C2C12 myogenesis differentiation"	"phosphoproteome, proteome"	"mouse"	"TransOmicsData/0.99.0/xiao-myogenesis"	"Xiao et al. Time-resolved phosphoproteome and proteome analysis reveals kinase signaling on master transcription factors during myogenesis. 2022"
+"3"	"yang-esc"	"ESC to epiLC differentiation"	"epigenome, phosphoproteome, proteome, transcriptome"	"mouse"	"TransOmicsData/0.99.0/yang-esc"	"Yang et al. Multi-omic Profiling Reveals Dynamics of the Phased Progression of Pluripotency. 2019"
