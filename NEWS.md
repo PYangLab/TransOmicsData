@@ -1,11 +1,7 @@
-# TransOmicsData 0.99.5
-
-NEW FEATURES
-
-* Added a `NEWS.md` file to track changes to the package.
+# TransOmicsData
 
 SIGNIFICANT USER-VISIBLE CHANGES
 
-* Made changes to vignette to improve usability.
+* version 1.0.1: added references to metadata
 
 BUG FIXES
