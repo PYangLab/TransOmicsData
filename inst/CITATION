@@ -3,7 +3,7 @@ citHeader("To cite TransOmicsData in publications use:")
 ref <- citEntry(entry = "manual",
          title = "TransOmicsData: a collection of trans-omics data covering a wide range of biological systems.",
          author = c("Carissa Chen", "Di Xiao", "Pengyi Yang"),
-         year = "2024"
+         year = "2024",
          doi = "10.18129/B9.bioc.TransOmicsData",
          note = "R package version 1.0.1"
 )
