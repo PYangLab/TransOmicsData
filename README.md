@@ -23,7 +23,8 @@ BiocManager::install("TransOmicsData")
 
 ## Shiny App
 
-Explore the human cerebral organoid trans-omic data interactively on [Shiny](http://shiny.maths.usyd.edu.au/hCOmultiome/)
+Explore the human cerebral organoid trans-omic data interactively on [Shiny](http://shiny.maths.usyd.edu.au/hCOmultiome/).
+
 Explore the mouse ESC to epiLC differentiation trans-omic data interactively on [http://www.stemcellatlas.org/](http://www.stemcellatlas.org/)
 
 ## Citation
