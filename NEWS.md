@@ -1,7 +1,10 @@
 # TransOmicsData
 
-SIGNIFICANT USER-VISIBLE CHANGES
+## version 1.0.1
 
-* version 1.0.1: added references to metadata
+### Significant User-Visible Changes
+- Added references to metadata and README.md
 
-BUG FIXES
+### Bug Fixes
+- No specific bug fixes in this version.
+
